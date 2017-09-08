@@ -1,0 +1,298 @@
+[31-Aug-2017 15:10:11 UTC] PHP Warning:  Missing argument 1 for Core\Autoloader::autoload(), called in /home/ubuntu/workspace/projet_5.2/public/index.php on line 4 and defined in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 7
+[31-Aug-2017 15:10:11 UTC] PHP Stack trace:
+[31-Aug-2017 15:10:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 15:10:11 UTC] PHP   2. Core\Autoloader::autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:4
+[31-Aug-2017 15:10:13 UTC] PHP Warning:  Missing argument 1 for Core\Autoloader::autoload(), called in /home/ubuntu/workspace/projet_5.2/public/index.php on line 4 and defined in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 7
+[31-Aug-2017 15:10:13 UTC] PHP Stack trace:
+[31-Aug-2017 15:10:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 15:10:13 UTC] PHP   2. Core\Autoloader::autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:4
+[31-Aug-2017 15:22:04 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (first array member is not a valid class name or object)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 15:22:40 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (first array member is not a valid class name or object)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 15:23:59 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (first array member is not a valid class name or object)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 15:24:18 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (first array member is not a valid class name or object)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 16:36:28 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 16:36:28 UTC] PHP Stack trace:
+[31-Aug-2017 16:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:36:32 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 16:36:32 UTC] PHP Stack trace:
+[31-Aug-2017 16:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:39:50 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:39:50 UTC] PHP Stack trace:
+[31-Aug-2017 16:39:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:39:53 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:39:53 UTC] PHP Stack trace:
+[31-Aug-2017 16:39:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:42:30 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:42:30 UTC] PHP Stack trace:
+[31-Aug-2017 16:42:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:42:34 UTC] PHP Fatal error:  Class 'Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 16:42:34 UTC] PHP Stack trace:
+[31-Aug-2017 16:42:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:42:35 UTC] PHP Fatal error:  Class 'Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 16:42:35 UTC] PHP Stack trace:
+[31-Aug-2017 16:42:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:49:57 UTC] PHP Warning:  include(../Core/.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:49:57 UTC] PHP Stack trace:
+[31-Aug-2017 16:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:49:57 UTC] PHP   2. __autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:16
+[31-Aug-2017 16:49:57 UTC] PHP Warning:  include(): Failed opening '../Core/.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:49:57 UTC] PHP Stack trace:
+[31-Aug-2017 16:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:49:57 UTC] PHP   2. __autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:16
+[31-Aug-2017 16:49:57 UTC] PHP Fatal error:  Class 'Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 16
+[31-Aug-2017 16:49:57 UTC] PHP Stack trace:
+[31-Aug-2017 16:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:50:01 UTC] PHP Warning:  include(../Core/.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:50:01 UTC] PHP Stack trace:
+[31-Aug-2017 16:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:50:01 UTC] PHP   2. __autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:16
+[31-Aug-2017 16:50:01 UTC] PHP Warning:  include(): Failed opening '../Core/.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/public/index.php on line 12
+[31-Aug-2017 16:50:01 UTC] PHP Stack trace:
+[31-Aug-2017 16:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:50:01 UTC] PHP   2. __autoload() /home/ubuntu/workspace/projet_5.2/public/index.php:16
+[31-Aug-2017 16:50:01 UTC] PHP Fatal error:  Class 'Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 16
+[31-Aug-2017 16:50:01 UTC] PHP Stack trace:
+[31-Aug-2017 16:50:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:53:22 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/projet_5.2/public/index.php on line 7
+[31-Aug-2017 16:53:33 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 7
+[31-Aug-2017 16:53:33 UTC] PHP Stack trace:
+[31-Aug-2017 16:53:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:53:43 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 16:53:43 UTC] PHP Stack trace:
+[31-Aug-2017 16:53:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 16:57:33 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 16:57:34 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php(9): spl_autoload_register(Array)
+#1 /home/ubuntu/workspace/projet_5.2/public/index.php(4): Core\Autoloader::autoload()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 9
+[31-Aug-2017 17:02:10 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 17:02:10 UTC] PHP Stack trace:
+[31-Aug-2017 17:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:02:10 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 11
+[31-Aug-2017 17:02:10 UTC] PHP Stack trace:
+[31-Aug-2017 17:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:03:01 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 9
+[31-Aug-2017 17:03:01 UTC] PHP Stack trace:
+[31-Aug-2017 17:03:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:03:03 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 9
+[31-Aug-2017 17:03:03 UTC] PHP Stack trace:
+[31-Aug-2017 17:03:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:04:28 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:04:28 UTC] PHP Stack trace:
+[31-Aug-2017 17:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:04:32 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:04:32 UTC] PHP Stack trace:
+[31-Aug-2017 17:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:05:39 UTC] PHP Warning:  include(Toto): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 14
+[31-Aug-2017 17:05:39 UTC] PHP Stack trace:
+[31-Aug-2017 17:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:05:39 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:05:39 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:05:39 UTC] PHP Warning:  include(): Failed opening 'Toto' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 14
+[31-Aug-2017 17:05:39 UTC] PHP Stack trace:
+[31-Aug-2017 17:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:05:39 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:05:39 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:05:39 UTC] PHP Fatal error:  Class 'Toto' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:05:39 UTC] PHP Stack trace:
+[31-Aug-2017 17:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:06:49 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:06:49 UTC] PHP Stack trace:
+[31-Aug-2017 17:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:06:50 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:06:50 UTC] PHP Stack trace:
+[31-Aug-2017 17:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:08:14 UTC] PHP Warning:  include(Core\Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 15
+[31-Aug-2017 17:08:14 UTC] PHP Stack trace:
+[31-Aug-2017 17:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:08:14 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:08:14 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:08:14 UTC] PHP Warning:  include(): Failed opening 'Core\Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 15
+[31-Aug-2017 17:08:14 UTC] PHP Stack trace:
+[31-Aug-2017 17:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:08:14 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:08:14 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:08:14 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:08:14 UTC] PHP Stack trace:
+[31-Aug-2017 17:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:09:48 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:09:48 UTC] PHP Stack trace:
+[31-Aug-2017 17:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:09:55 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:09:55 UTC] PHP Stack trace:
+[31-Aug-2017 17:09:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:10:35 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:10:35 UTC] PHP Stack trace:
+[31-Aug-2017 17:10:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:10:41 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:10:41 UTC] PHP Stack trace:
+[31-Aug-2017 17:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:10:48 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:10:48 UTC] PHP Stack trace:
+[31-Aug-2017 17:10:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:10:57 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:10:57 UTC] PHP Stack trace:
+[31-Aug-2017 17:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:11:02 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:11:02 UTC] PHP Stack trace:
+[31-Aug-2017 17:11:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:11:55 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:11:55 UTC] PHP Stack trace:
+[31-Aug-2017 17:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:11:55 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:11:55 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:11:55 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:11:55 UTC] PHP Stack trace:
+[31-Aug-2017 17:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:11:55 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:11:55 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:6
+[31-Aug-2017 17:11:55 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 6
+[31-Aug-2017 17:11:55 UTC] PHP Stack trace:
+[31-Aug-2017 17:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:18 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:13:18 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:18 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:18 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:18 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:13:18 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:18 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:18 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:18 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:13:18 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:19 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:13:19 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:19 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:19 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:13:19 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:13:19 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:19 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:13:19 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:13:19 UTC] PHP Stack trace:
+[31-Aug-2017 17:13:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:23 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:14:23 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:23 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:23 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:23 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:14:23 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:23 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:23 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:23 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:14:23 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:38 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:14:38 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:38 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:38 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:38 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:14:38 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:14:38 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:38 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:14:38 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:14:38 UTC] PHP Stack trace:
+[31-Aug-2017 17:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:10 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:10 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:10 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:10 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:10 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:10 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:10 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:10 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:10 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:15:10 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:51 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:51 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:51 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:51 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:51 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:51 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:51 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:51 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:51 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:15:51 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:53 UTC] PHP Warning:  include(Core/Chaise.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:53 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:53 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:53 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:53 UTC] PHP Warning:  include(): Failed opening 'Core/Chaise.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:15:53 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:15:53 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:53 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:15:53 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:15:53 UTC] PHP Stack trace:
+[31-Aug-2017 17:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:20:05 UTC] PHP Fatal error:  Class 'Core\Chaise' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 8
+[31-Aug-2017 17:20:05 UTC] PHP Stack trace:
+[31-Aug-2017 17:20:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:25 UTC] PHP Warning:  include(/home/ubuntu/workspace/projet_5.2/Table.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:22:25 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:25 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:25 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:25 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/projet_5.2/Table.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:22:25 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:25 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:25 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:25 UTC] PHP Fatal error:  Class 'Table' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:22:25 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:28 UTC] PHP Warning:  include(/home/ubuntu/workspace/projet_5.2/Table.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:22:28 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:28 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:28 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:28 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/projet_5.2/Table.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/projet_5.2/Core/Autoloader.php on line 17
+[31-Aug-2017 17:22:28 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
+[31-Aug-2017 17:22:28 UTC] PHP   2. spl_autoload_call() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:28 UTC] PHP   3. Core\Autoloader::myAutoload() /home/ubuntu/workspace/projet_5.2/public/index.php:10
+[31-Aug-2017 17:22:28 UTC] PHP Fatal error:  Class 'Table' not found in /home/ubuntu/workspace/projet_5.2/public/index.php on line 10
+[31-Aug-2017 17:22:28 UTC] PHP Stack trace:
+[31-Aug-2017 17:22:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/projet_5.2/public/index.php:0
