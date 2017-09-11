@@ -31,3 +31,5 @@ Voici donc ton objectif pour jeudi et la méthodologie à appliquer.
 L'objectif pédagogique est de prendre mon projet comme un cours. J'insiste sur le fait de comprendre l'ensemble des commits que j'ai réalisé (le point 9).
 Tu notes tout ce que tu ne comprends pas ou parait flou et on éclairci ca en rdv session hebdo. Note bien ta question et son commit associé stp.
 Je pense qu'avec cette méthode on aura fini assez vite.# Projet_5.2
+
+https://discordapp.com/channels/90878578090061824/90878578090061824
