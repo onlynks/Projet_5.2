@@ -9,8 +9,7 @@ namespace app\configuration;
  */
 class Routes
 {
-	public static $routes = array(
-		array(
+	public static $routes = array(array(
 			"pattern"    => "homepage",
 			"controller" => "homepage",
 			"action"     => "index",
