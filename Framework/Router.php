@@ -33,8 +33,12 @@ class Router {
 			if ( $route->matches( $this->_url ) ) {
 				$this->_controller = $route->getController();
 				$this->_action     = $route->getAction();
-				$controllerClass = "\\app\\Controller\\" . ucfirst( $this->_controller ) . "Controller";
-				$controller      = new $controllerClass();
+				try {
+					$controllerClass = "\\app\\Controller\\" . ucfirst( $this->_controller ) . "Controller";
+					$controller      = new $controllerClass();
+				} catch ( \Exception $e ) {
+					throw new \Exception( "Controller {$this->_controller} not found." );
+				}
 			}
 		}
 	}
