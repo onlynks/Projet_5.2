@@ -1,39 +1,41 @@
 <?php
 namespace Framework;
-
-class Router
-{
+class Router {
 	protected $_url;
 	protected $_controller;
 	protected $_action;
 	protected $_routes = array();
+	public function __construct( $options = array() ) {
+		foreach ( $options as $key => $value ) {
+			$method        = "_" . $key;
+			$this->$method = $value;
+		}
+	}
 	/**
 	 * Adds a route in the Router
 	 *
-	 * @param $route
+	 * @param Route $route
 	 *
 	 * @return $this
 	 */
-	public function addRoute( $route ) 
-	{
+	public function addRoute( Route $route ) {
 		$this->_routes[] = $route;
 		return $this;
 	}
-	
-	public function removeRoute( $route ) 
-	{
-	    
+	public function removeRoute( $route ) {
 	}
-	public function getRoutesByName() 
-	{
-	    
+	public function getRoutesByName() {
 	}
-	public function getRoutes() 
-	{
-	    
+	public function getRoutes() {
 	}
-	public function dispatch() 
-	{
-	    
+	public function dispatch() {
+		foreach ( $this->_routes as $route ) {
+			if ( $route->matches( $this->_url ) ) {
+				$this->_controller = $route->getController();
+				$this->_action     = $route->getAction();
+				$controllerClass = "\\app\\Controller\\" . ucfirst( $this->_controller ) . "Controller";
+				$controller      = new $controllerClass();
+			}
+		}
 	}
 }
