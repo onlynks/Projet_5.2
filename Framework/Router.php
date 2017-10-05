@@ -42,6 +42,8 @@ class Router {
 				if ( ! method_exists( $controller, $this->_action . "Action" ) ) {
 					throw new \Exception( "Action {$this->_action}Action not found" );
 				}
+				$action = $this->_action . "Action";
+				$controller->$action();
 			}
 		}
 	}
