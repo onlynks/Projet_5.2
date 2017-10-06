@@ -1,20 +1,28 @@
 <?php
 namespace Framework;
 class Controller {
-	protected $_view;
+	protected $_actionView;
+	protected $_layoutView;
 	public function __construct() {
 		$router      = Registry::get( "router" );
-		$this->_view = new View( array(
-			"file" => APP_PATH . "/app/views/{$router->getController()}/{$router->getAction()}.php",
+		$this->_actionView = new View( array(
+			"file" => "{$router->getController()}/{$router->getAction()}.html.twig",
 		) );
+		$this->_layoutView = new View( array(
+			"file" => "layouts/standard.html.twig",
+		) );
+		$this->_layoutView->set( "base_url", BASE_URL );
+		$this->_actionView->set( "base_url", BASE_URL );
 	}
 	/**
-	 * Renders the view
+	 * Displays HTML (Twig) content from the layout
+	 *
+	 * @return string
 	 */
 	public function render() {
+		$this->_layoutView->set( "actionFile", $this->_actionView->getViewContent() );
 		header( "Content-type: text/html" );
-		$data = $this->_view->getData(); // pass custom data to the view
-		include $this->_view->getViewFile();
+		echo $this->_layoutView->getViewContent();
 	}
 	public function __destruct() {
 		$this->render();

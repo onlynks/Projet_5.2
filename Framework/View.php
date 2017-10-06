@@ -2,23 +2,24 @@
 namespace Framework;
 class View {
 	protected $_file;
+	protected $_twig;
 	protected $_data = array();
 	public function __construct( $options = array() ) {
 		foreach ( $options as $key => $value ) {
 			$method        = "_" . $key;
 			$this->$method = $value;
 		}
+		$this->_twig = Registry::get( "twig" );
 	}
 	/**
-	 * Get view content from the file
+	 * Returns HTML (Twig) content from the file $this->_file
 	 *
-	 * @return string | null
+	 * @return string
 	 */
-	public function getViewFile() {
-		if ( file_exists( $this->_file ) ) {
-			return $this->_file;
-		}
-		return null;
+	public function getViewContent() {
+		/** @var \Twig_Environment $twig */
+		$twig = $this->_twig;
+		return $twig->render( $this->_file, $this->getData() );
 	}
 	/**
 	 * Set the data depending on if $key is an array or a string
