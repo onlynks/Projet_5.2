@@ -2,6 +2,7 @@
 namespace Framework;
 class View {
 	protected $_file;
+	protected $_data = array();
 	public function __construct( $options = array() ) {
 		foreach ( $options as $key => $value ) {
 			$method        = "_" . $key;
@@ -24,5 +25,11 @@ class View {
 	 */
 	public function setFile( $file ) {
 		$this->_file = $file;
+	}
+	/**
+	 * @return array
+	 */
+	public function getData() {
+		return $this->_data;
 	}
 }
