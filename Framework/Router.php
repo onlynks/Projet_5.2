@@ -39,7 +39,24 @@ class Router {
 				} catch ( \Exception $e ) {
 					throw new \Exception( "Controller {$this->_controller} not found." );
 				}
+				if ( ! method_exists( $controller, $this->_action . "Action" ) ) {
+					throw new \Exception( "Action {$this->_action}Action not found" );
+				}
+				$action = $this->_action . "Action";
+				$controller->$action();
 			}
 		}
+	}
+	/**
+	 * @return string
+	 */
+	public function getController() {
+		return $this->_controller;
+	}
+	/**
+	 * @return string
+	 */
+	public function getAction() {
+		return $this->_action;
 	}
 }
